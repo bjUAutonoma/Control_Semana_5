@@ -9,13 +9,6 @@ public class Reversoinador {
 
     public static void main(String[] args) {
 
-        //String trys = "abcdefghijklmnopqrstuvwxyz";
-        //System.out.println(trys.length());
-        //System.out.println(trys.charAt(trys.length()-1));
-        //for (int i=trys.length()-1;i>=0;i--){
-        //    System.out.println(i);
-        //    System.out.println(trys.charAt(i));
-        //}
         Reversoinador.menu();
     }
     
