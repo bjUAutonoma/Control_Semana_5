@@ -70,16 +70,35 @@ public class Reversoinador {
                     +"\n (_)               (_)\n");
             Reversoinador.input();
         }
-        Reversoinador.reverse(num);
+					
+					String strNum = Integer.toString(num);
+					String reverseNum = new String();
+        Reversoinador.reverse(strNum, reverseNum);
     }
-    public static void reverse(int num) {
+    //public static void reverse(int num) {
         
-        String strNum = Integer.toString(num);
-        String reverseNum = new String();
-        for (int i=strNum.length()-1;i>=0;i--){
-            reverseNum = reverseNum+strNum.charAt(i);
+        //String strNum = Integer.toString(num);
+        //String reverseNum = new String();
+        //for (int i=strNum.length()-1;i>=0;i--){
+            //reverseNum = reverseNum+strNum.charAt(i);
+        //}
+        //System.out.println("\nEl numero invertido es: "+reverseNum+"\n");
+        //Reversoinador.menu();
+    //}
+    public static void reverse(String strNum, reverseNum) {
+        
+					if (strNum.lenght()>0) {
+
+									String reverseNum = reverseNum+strNum.charAt(srtNum.lenght()-1);
+									for (int i=0;i<strNum.lenght()-2;i++) {
+													String n_strNum = n_strNum+strNum.charAt(i);
+									}
+									Reversoinador.reverse(n_strNum,reverseNum):
+ 					
+
+        else {
+
+             Reversoinador.menu();
         }
-        System.out.println("\nEl numero invertido es: "+reverseNum+"\n");
-        Reversoinador.menu();
     }
 }
